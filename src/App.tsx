@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="text-center">
+    <div className="text-center bg-slate-700 min-h-lvh flex justify-center items-center">
       <header className="bg-slate-700 min-h-lvh flex flex-col items-center justify-center text-white text-2xl">
         <img src={logo} className="h-[40vmin] pointer-events-none" alt="logo" />
         <p>
@@ -16,9 +16,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React from Nic
+          Learn React
         </a>
-        <h1 className="text-3xl font-bold underline bg-red-400">Hello world</h1>
       </header>
     </div>
   );
